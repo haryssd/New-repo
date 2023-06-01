@@ -38,5 +38,6 @@ if (isset($_POST['product_name']) && isset($_POST['product_price']) && isset($_P
 } else {
     // Form data not submitted
     echo "Form data not submitted";
+    echo "data changed";
 }
 ?>
